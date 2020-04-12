@@ -21,7 +21,7 @@ import java.util.ArrayList;
 
 public class AsyncGovtDetailsLoader extends AsyncTask<String, Void, String>{
     private MainActivity mainActivity;
-    private String requestURL = "https://www.googleapis.com/civicinfo/v2/representatives?key=AIzaSyBUtFofp8fj2WkjDcUe5VMIB5sqTgwpjmo&address=";
+    private String requestURL = "https://www.googleapis.com/civicinfo/v2/representatives?key=<ENTER YOUR API_KEY HERE>&address=";
     private String locationpostalCode;
     private String locationcity;
     private String locationstate;
